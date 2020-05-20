@@ -1,0 +1,10 @@
+name = input("Enter your name: ")
+print("YOur name is : " + name)
+age = input("Enter your age: ")
+print("Your age is : " + age)
+age=int(age)
+year100 = str(2020-age+100)
+print("You'll be 100 years old in the year:" + year100 )
+randomnum = int(input("Enter a random number:"))
+for i in range(randomnum):
+    print("You'll be 100 years old in the year:" + year100 )
